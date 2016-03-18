@@ -5,6 +5,8 @@ HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile Ap
 
 >Responsive
 
+> Handle With 2 Events (Click and Mouseover)
+
 >All Major Browser Compatible
 
 >Open with Left side and Top Side
@@ -40,11 +42,14 @@ HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile Ap
 ###jQuery
 ```javascript
 	$(".hr-nav-wrapper").hrNavMenu({ 
-		speed:800, 
-		menuType :"fromLeft"
+		speed:800, //integer in milliseconds  1000,2000
+		menuType :"fromLeft", //fromLeft, fromTop
+		desktopListWidth : "fluid", // fluid, default
+		openEvent : "click" //click, mouseover
 	});
 ```
 
 ###### Author
 About Author : [Md Hidaytullah Rahmani](http://www.webtechpie.com)
 
+###### if you've any more idea please share me on hidaytrahman@gmail.com :)
