@@ -46,4 +46,5 @@ HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile Ap
 ```
 
 ###### Author
-About Author : [Md Hidaytullah Rahmani](https://www.webtechpie.com)
+About Author : [Md Hidaytullah Rahmani](http://www.webtechpie.com)
+
