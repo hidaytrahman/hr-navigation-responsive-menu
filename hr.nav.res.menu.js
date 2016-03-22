@@ -6,12 +6,12 @@ url: http://www.webtechpie.com
 */
 var next_move = "open";
 $.fn.hrNavMenu =  function(option){
-
 	var custom = $.extend({
 		openEvent 			: "click", //click, mouseover
 		menuType			: "fromLeft", // fromLeft, fromTop
 		speed 				: 500, // integer in milliseconds  1000,2000
 		desktopListWidth 	: "fluid" ,// fluid, default
+		multiple			: false // true, false
 
 	},option)
 
@@ -65,11 +65,11 @@ $.fn.hrNavMenu =  function(option){
 		var winWid = $(window).width();
 		//alert(winWid);
 		if(winWid>768) {
-			$(parentDiv).css("display","block");
+			$(parentDiv).show();
 		 }	
 		 else
 		 {
-		 	 $(parentDiv).css("display","none");
+		 	 $(parentDiv).hide();
 		 	 $(".hr-fromLeft").css({"display":"block"});
 		 	 $(".hr-toggMenu").removeClass("hr-active"); // remove close when resize
 		 } 
@@ -80,8 +80,27 @@ $.fn.hrNavMenu =  function(option){
 
 	//Submenu mobile
 	$(".hrArr").on("click", function(){
-		$(this).toggleClass("hrArr-active");
-		$(this).next().slideToggle();
+		if(custom.multiple==false)
+		{
+			$(this).next('.hr-navigation ul ul').slideToggle();
+	        $(this).parents('li').eq(0).siblings().each(function(){
+	        var _toggle = $(this).find('.hrArr').eq(0);
+	            if(_toggle.hasClass("hrArr-active")){
+	                 _toggle.removeClass("hrArr-active");
+	                 $(this).find('ul').eq(0).slideToggle();
+	            }
+	       
+	        });
+
+			$(this).toggleClass("hrArr-active");
+		}
+
+		else
+		{
+			$(this).next().slideToggle();
+			$(this).toggleClass("hrArr-active");
+		}
+		
 	});
 
 	//fluid width on desktop

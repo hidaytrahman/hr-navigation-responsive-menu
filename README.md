@@ -3,20 +3,21 @@
 HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile App with very less code and easy to implement with all possible options
 
 ####Features
-
 >Responsive
 
-> Handle With 2 Events (Click and Mouseover)
+>Handle Events with 2 option (Click and Mouseover)
 
 >All Major Browser Compatible
 
 >Open with Left side and Top Side
 
+>Multilple open menu option (Open one at a time or multiple)
+
 >Equal width of list Item on Desktop
 
 >Custom Speed Option
 
->Lightweight js only (2.6kb)
+>Lightweight js only (3 kb)
 
 ##Documentation
 
@@ -46,7 +47,9 @@ HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile Ap
 		speed:800, //integer in milliseconds  1000,2000
 		menuType :"fromLeft", //fromLeft, fromTop
 		desktopListWidth : "fluid", // fluid, default
-		openEvent : "click" //click, mouseover
+		openEvent : "click", //click, mouseover
+		multiple  : false // true, false
+
 	});
 ```
 
