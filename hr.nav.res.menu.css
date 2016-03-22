@@ -55,6 +55,11 @@
     .pluginAuthor .author-pic img{    width: 100%;    max-width: 200px;     max-height: 164px;}
     .pluginAuthor .author-url{    width: 44%;    float: left;}
     .pluginAuthor:after{content: "";display: table;clear: both}
+    .examples{}
+    
+    .examples .exm{width:40%;  float: left;}
+    
+    .examples:after{content: "";display: block;clear: both;}
 
 	.hr-nav-wrapper{    max-width: 1200px;    margin: 0px auto;padding: 1%;   background: #F7F6F6;}
 
