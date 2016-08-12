@@ -1,4 +1,4 @@
-# hr-navigation-responsive-menu
+# HR Navigation Responsive Menu
 
 HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile App with very less code and easy to implement with all possible options
 
@@ -53,7 +53,9 @@ HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile Ap
 	});
 ```
 
+[Checkout Demo ](https://run.plnkr.co/plunks/QLcT9d/)
+
 ###### Author
-About Author : [Md Hidaytullah Rahmani](http://www.webtechpie.com)
+About Author : [Md Hidaytullah Rahmani](http://www.clickimagine.com)
 
 ###### if you've any more idea please share me on hidaytrahman@gmail.com :)
