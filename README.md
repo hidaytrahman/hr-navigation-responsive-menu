@@ -62,5 +62,5 @@ About Author : [Md Hidaytullah Rahmani](http://www.clickimagine.com)
 
 ### Logs (v1.1)
 ###### 1.1 Multiple option Added
-######  * Multiple Expand Menu
-######  * Single Expend Menu
+  ###### *Multiple Expand Menu*
+  ###### *Single Expend Menu*
