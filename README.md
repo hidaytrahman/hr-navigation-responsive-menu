@@ -58,10 +58,9 @@ HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile Ap
 ###### Author
 About Author : [Md Hidaytullah Rahmani](http://www.clickimagine.com)
 
-###### if you've any more idea please share me on hidaytrahman@gmail.com :)
-
+###### if you've any more idea or changes please share me on hidaytrahman@gmail.com :)
 
 ### Logs (v1.1)
-##### 1.1 Multiple option Added
-  1. Multiple Expand Menu
-  2. Single Expend Menu
+###### 1.1 Multiple option Added
+######  * Multiple Expand Menu
+######  * Single Expend Menu
