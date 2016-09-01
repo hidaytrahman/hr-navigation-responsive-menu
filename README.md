@@ -23,13 +23,13 @@ HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile Ap
 
 ###HTML
 
-######Include these files on <head>
+###### Required Files <head>
 ```html
 <link rel="stylesheet" href="hr.nav.res.menu.css">
 <script src="1.11.2.jquery.min.js"> </script>
 <script src="hr.nav.res.menu.js"> </script>
 ```
-###### add these ul structures
+###### Menu Markup
 ```html
 <nav class="hr-nav-wrapper">
 		<div class="navigation hr-navigation">
@@ -59,3 +59,8 @@ HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile Ap
 About Author : [Md Hidaytullah Rahmani](http://www.clickimagine.com)
 
 ###### if you've any more idea please share me on hidaytrahman@gmail.com :)
+
+
+### Logs
+##### 1.1 Multiple option Added
+###### Open one menu at a time or multiple
