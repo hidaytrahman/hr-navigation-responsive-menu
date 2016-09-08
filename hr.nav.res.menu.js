@@ -1,9 +1,10 @@
-/*   
-Plugin :  HR Navigation Responsive Menu
-Developer: MD Hidaytullah Rahmani
-url: http://www.webtechpie.com
+//     hr.nav.res.menu.js 1.0.1
 
-*/
+//     (c) 2016 Md Hidaytullah Rahmani
+//     HR Navigation Responsive Menu may be freely distributed under the MIT license.
+//     For all details and documentation:
+//     https://github.com/hidaytrahman/hr-navigation-responsive-menu
+
 var next_move = "open";
 $.fn.hrNavMenu =  function(option){
 	var custom = $.extend({
