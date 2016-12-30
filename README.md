@@ -1,4 +1,4 @@
-# HR Navigation Responsive Menu [v1.1]
+# HR Navigation Responsive Menu [v1.2]
 
 HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile App with very less code and easy to implement with all possible options
 
@@ -61,7 +61,10 @@ About Author : [Md Hidaytullah Rahmani](http://www.clickimagine.com)
 ###### if you've any more idea or changes please share me on hidaytrahman@gmail.com :)
 
 ----------------------------------------------------
-### Logs (v1.1)
+### Logs (v1.2)
+> What's New
+###### Added minified css and js
+--------------------------
 #####  Multiple option Added **(v1.1)**
 ###### _Multiple Expand Menu_
 ###### _Single Expend Menu_
