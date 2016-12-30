@@ -62,7 +62,7 @@ About Author : [Md Hidaytullah Rahmani](http://www.clickimagine.com)
 
 ----------------------------------------------------
 ### Logs (v1.2)
-> What's New
+#### What's New
 ###### Added minified css and js
 --------------------------
 #####  Multiple option Added **(v1.1)**
