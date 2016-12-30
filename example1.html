@@ -4,32 +4,26 @@
 <meta charset="utf-8">
 <title>HR Navigation Responsive Menu -  Md Hidaytullah Rahmani</title>
 <meta name="viewport" content="width=device-width">
-<link rel="stylesheet" type="text/css" href="hr.nav.res.menu.css">
-<script src="1.11.2.jquery.min.js"></script>
-<script src="hr.nav.res.menu.js"></script>
+<link rel="stylesheet" type="text/css" href="css/hr.nav.res.menu.min.css">
+<script src="js/1.11.2.jquery.min.js"></script>
+<script src="js/hr.nav.res.menu.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-
 	$(".hr-nav-wrapper").hrNavMenu({
-		speed:500,
-		menuType :"fromTop"
+		speed: 500,
+		menuType: "fromTop"
 	});
-
-
 });
-
 </script>
 </head>
-
 <body>
-
+<div class="plugin-content">
+	<h1>From Top Example</h1>
+</div>
 <nav class="hr-nav-wrapper">
-
 	<div class="navigation hr-navigation">
-
 		<ul>
 			<li><a href="#">Nav</a></li>
-
 			<li><a href="#">Menu 2</a></li>
 			<li><a href="#">Menu 3</a>
 				<ul>
@@ -45,30 +39,18 @@ $(document).ready(function(){
 							<li><a href="#">Menu 4.2</a></li>
 						</ul>
 					</li>
-
 					<li><a href="#">Menu 4.1</a>
 					 	<ul>
 					 		<li><a href="#">Menu 4.2</a></li>
 					 	</ul>
 					</li>
-
 				</ul>
 			</li>
 			<li><a href="#">Menu 5</a></li>
 			<li><a href="#">Menu 6</a></li>
 		</ul>
-
 	</div>
 	<!-- Navigation end -->
-
 </nav>
-
-
-<div class="plugin-content">
-
-<h1>From Top Example</h1>
-
-</div>
-
 </body>
 </html>
