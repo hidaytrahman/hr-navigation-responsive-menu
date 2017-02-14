@@ -1,15 +1,16 @@
-# HR Navigation Responsive Menu [v1.2]
+# HR Navigation Responsive Menu [v1.3]
 
-HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile App with very less code and easy to implement with all possible options
+HR Navigation Responsive Menu for all type of Web Applications with very less code and easy to implement with all possible options.
 
 ####Features
-* Responsive
+* Responsive all devices support
 * Handle events with 2 option (Click and Mouseover)
 * All major browsers compatible
 * Toggle from left side and top side
 * Multilple open menu option (Open one at a time or multiple)
 * Equal width of menu list on Desktop
 * Custom speed option
+* LESS compatible
 * Lightweight js only (3 kb)
 
 ##Documentation
@@ -49,15 +50,16 @@ HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile Ap
 [Checkout Demo ](https://run.plnkr.co/plunks/QLcT9d/)
 
 ###### Author
-About Author : [Md Hidaytullah Rahmani](http://www.clickimagine.com)
+###### if you've any more idea or suggestions please share me on :point_right: [hidaytrahman@gmail.com](mailto:hidaytrahman@gmail.com)
 
-###### if you've any more idea or changes please share me on hidaytrahman@gmail.com :)
+#### If you like my work [buy me a cup of coffe](https://www.paypal.me/hidaytrahman/3) to show support :blush:
 
 ----------------------------------------------------
-### Logs (v1.2)
+### Logs (v1.3)
 #### What's New
-###### Added minified css and js
+###### LESS Compatibility
 --------------------------
-#####  Multiple option Added **(v1.1)**
+#####  Multiple option Added **(v1.2)**
+###### _Added minified css and js_
 ###### _Multiple Expand Menu_
 ###### _Single Expend Menu_
