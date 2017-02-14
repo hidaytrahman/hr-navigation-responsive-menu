@@ -1,0 +1,139 @@
+/*Layout Stylesheet*/
+.plugin-content {
+    background: #F3F3F3;
+    padding: 1%;
+    max-width: 1200px;
+    margin: 0px auto;
+    font-family: arial;
+    color: #464444;
+	
+	h1 {
+		color: #083E56;
+		padding: 5px 0;
+		text-shadow: 0px 0px 6px #9E9E9E;
+	}
+	
+	h2 {
+		margin: 8px 0;
+	}
+	
+	h4 {
+		width: 100%;
+		font-weight: 100;
+		line-height: 26px;
+		max-width: 480px;
+	}
+}
+
+
+
+h4.mhead {
+    color: green;
+    font-weight: bold;
+    background: #F7F7F7;
+    margin: 10px;
+}
+
+
+
+.html-tag {
+    color: #FFEB3B;
+    padding: 15px 29px;
+    font-size: 13px;
+    line-height: 20px;
+    background: #000;
+}
+
+
+
+.hr-features {
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1073A0;
+}
+
+
+
+.introPlugin {
+	span {
+		padding: 6px;
+		display: inline-block;
+		color: #867F7F;
+	}
+}
+
+
+
+footer {
+    background: #ccc;
+    padding: 7px 0;
+}
+
+
+
+.pluginAuthor {
+    max-width: 1200px;
+    margin: 0px auto;
+	
+	.social {
+		text-decoration: none;
+		display: block;
+		margin: 1px auto;
+		max-width: 480px;
+		width: 100%;
+		background: #FF5722;
+		color: #fff;
+		padding: 15px;
+		border-radius: 12px;
+		font-size: 19px;
+		text-align: center;
+		transition: all 0.7s ease;
+		-webkit-transition: all 0.7s ease;
+		-moz-transition: all 0.7s ease;
+		-ms-transition: all 0.7s ease;
+		-o-transition: all 0.7s ease;
+	}
+	
+	.author-pic {
+		float: left;
+		width: 16%;
+	}
+	
+	.author-pic img {
+		width: 100%;
+		max-width: 200px;
+		max-height: 164px;
+	}
+	
+	.author-url {
+		width: 44%;
+		float: left;
+	}
+	
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+
+
+.examples {
+	.exm {
+		width: 40%;
+		float: left;
+	}
+	
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+/*IMPORT REQUIRED FILES*/
+@import url(variables.less);
+@import url(mixin);
+@import url(theme);

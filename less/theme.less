@@ -1,0 +1,188 @@
+/* Navigation Stylesheet*/
+.hr-nav-wrapper {
+    max-width: @large;
+    margin: 0px auto;
+    padding: 1%;
+    background: @light-gray;
+	
+	ul {
+		padding: 0;
+		margin: 0;
+		
+		&:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+		
+		li {
+			list-style-type: none;
+			float: left;
+			position: relative;
+			
+			&:hover > ul {
+				display: block;
+			}
+			
+			a {
+				text-decoration: none;
+				color: @white;
+				background: @dark-gray;
+				padding: 0.5em 1em;
+				display: block;
+				margin-right: 1px;
+				font-family: arial;
+				font-size: (@font-normal)-1px;
+				background: linear-gradient(@dark-gray, @medium-gray);
+				
+				&:hover {
+					background: @orange;
+				}
+			}
+			
+			ul {
+				display: none;
+				position: absolute;
+				width: 150px;
+				
+				a {
+					margin-right: 0;
+					background: lighten(@dark-gray, 30%);
+				}
+				
+				li {
+					width: 100%;
+					
+					ul {
+						top: 0;
+						left: 100%;
+						
+						a {
+							background: lighten(@dark-gray, 40%);
+						}
+					}
+
+				}
+			}
+		}
+	}
+}
+
+
+
+.hr-toggMenu {
+    display: none;
+}
+
+
+
+.hr-navigation {
+	.hrArr {
+		position: absolute;
+		top: 0px;
+		color: @white;
+		right: 15%;
+		
+		&:after {
+			content: "";
+			border-top: 5px solid #bfbfbf;
+			border-right: 5px solid transparent;
+			border-bottom: 5px solid transparent;
+			border-left: 5px solid transparent;
+			position: absolute;
+			top: 11px;
+			left: 0px;
+		}
+	}
+	
+	
+}
+
+
+@media screen and (max-width: @small) {
+    /* responsive layout */
+    .hr-toggMenu {
+        display: inline-block;
+        padding: 8px 7px;
+        color: @white;
+        background: url(@menu-open) no-repeat;
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        background-size: 30px;
+        background-position: 4px;
+    }
+	
+	
+    .hr-active {
+        background: url(@menu-close) no-repeat;
+        background-size: 25px;
+        background-position: 4px;
+    }
+	
+	
+    .hr-navigation {
+		max-width: 250px;
+        position: relative;
+        display: none;
+		
+		&.hr-fromLeft {
+			left: -260px;
+			display: block;
+			max-width: 250px;
+		}
+		
+		.hrArr {
+			position: absolute;
+			top: 5px;
+			right: 0;
+			padding: 6px;
+			background: #FF9800 url(@menu-arrow) no-repeat;
+			margin: 1px;
+			display: inline-block;
+			cursor: pointer;
+			height: 7px;
+			width: 10px;
+			.background-arr-position(3px, -15px);
+			
+			&:after {
+				display: none;
+			}
+		}
+		
+		ul {
+			li {
+				float: none;
+				width: auto !important;
+				
+				a {
+					margin-right: 0;
+					border-bottom: 1px #1B6EB1 solid;
+					padding: 8px 15px;
+					font-size: 14px;
+				}
+				
+				ul {
+					position: relative;
+					width: 100%;
+					
+					li {
+						ul {
+							left: 0;
+						}
+					}
+					
+				}
+				
+				&:hover > ul {
+					display: none;
+				}
+			}
+		}
+		
+		.hrArr-active {
+			background: #8BC34A url(@menu-arrow) no-repeat;
+			.background-arr-position(3px, 2px);
+		}
+	}
+}
