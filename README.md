@@ -3,21 +3,14 @@
 HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile App with very less code and easy to implement with all possible options
 
 ####Features
->Responsive
-
->Handle Events with 2 option (Click and Mouseover)
-
->All Major Browser Compatible
-
->Open with Left side and Top Side
-
->Multilple open menu option (Open one at a time or multiple)
-
->Equal width of list Item on Desktop
-
->Custom Speed Option
-
->Lightweight js only (3 kb)
+* Responsive
+* Handle events with 2 option (Click and Mouseover)
+* All major browsers compatible
+* Toggle from left side and top side
+* Multilple open menu option (Open one at a time or multiple)
+* Equal width of menu list on Desktop
+* Custom speed option
+* Lightweight js only (3 kb)
 
 ##Documentation
 
@@ -29,7 +22,7 @@ HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile Ap
 <script src="1.11.2.jquery.min.js"> </script>
 <script src="hr.nav.res.menu.js"> </script>
 ```
-###### Menu Markup
+###### HTML
 ```html
 <nav class="hr-nav-wrapper">
 		<div class="navigation hr-navigation">
