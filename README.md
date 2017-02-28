@@ -1,4 +1,4 @@
-# HR Navigation Responsive Menu [v1.3]
+# HR Navigation Responsive Menu [v1.4]
 
 HR Navigation Responsive Menu for all type of Web Applications with very less code and easy to implement with all possible options.
 
@@ -11,7 +11,7 @@ HR Navigation Responsive Menu for all type of Web Applications with very less co
 * Equal width of menu list on Desktop
 * Custom speed option
 * LESS compatible
-* Lightweight js only (3 kb)
+* Lightweight js only (2 kb)
 
 ##Documentation
 
@@ -19,9 +19,9 @@ HR Navigation Responsive Menu for all type of Web Applications with very less co
 
 ###### Required Files <head>
 ```html
-<link rel="stylesheet" href="hr.nav.res.menu.css">
+<link rel="stylesheet" href="hr.nav.res.menu.min.css">
 <script src="1.11.2.jquery.min.js"> </script>
-<script src="hr.nav.res.menu.js"> </script>
+<script src="hr.nav.res.menu.min.js"> </script>
 ```
 ###### HTML
 ```html
@@ -47,7 +47,7 @@ HR Navigation Responsive Menu for all type of Web Applications with very less co
 	});
 ```
 
-[Checkout Demo ](https://run.plnkr.co/plunks/QLcT9d/)
+[Checkout Demo ](https://hidaytrahman.github.io/hr-navigation-responsive-menu/)
 
 ###### Author
 ###### if you've any more idea or suggestions please share me on :point_right: [hidaytrahman@gmail.com](mailto:hidaytrahman@gmail.com)
@@ -55,9 +55,10 @@ HR Navigation Responsive Menu for all type of Web Applications with very less co
 #### If you like my work [buy me a cup of coffee](https://www.paypal.me/hidaytrahman/3) to show support :blush:
 
 ----------------------------------------------------
-### Logs (v1.3)
+### Logs (v1.4)
 #### What's New
 ###### LESS Compatibility
+###### UI Changes
 --------------------------
 #####  Multiple option Added **(v1.2)**
 ###### _Added minified css and js_
