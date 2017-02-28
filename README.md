@@ -4,11 +4,11 @@ HR Navigation Responsive Menu for all type of Web Applications with very less co
 
 ####Features
 * Responsive all devices support
-* Handle events with 2 option (Click and Mouseover)
+* Handle events with two options (click and mouseover)
 * All major browsers compatible
 * Toggle from left side and top side
-* Multilple open menu option (Open one at a time or multiple)
-* Equal width of menu list on Desktop
+* Multilple open menu option (open one at a time or multiple)
+* Equal width of menu list on desktop
 * Custom speed option
 * LESS compatible
 * Lightweight js only (2 kb)
@@ -50,6 +50,7 @@ HR Navigation Responsive Menu for all type of Web Applications with very less co
 [Checkout Demo ](https://hidaytrahman.github.io/hr-navigation-responsive-menu/)
 
 ###### Author
+<img src="https://i.stack.imgur.com/Ypp7a.jpg" width="100">
 ###### if you've any more idea or suggestions please share me on :point_right: [hidaytrahman@gmail.com](mailto:hidaytrahman@gmail.com)
 
 #### If you like my work [buy me a cup of coffee](https://www.paypal.me/hidaytrahman/3) to show support :blush:
