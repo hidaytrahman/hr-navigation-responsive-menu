@@ -28,7 +28,7 @@
 				text-decoration: none;
 				color: @white;
 				background: @dark-gray;
-				padding: 0.5em 1em;
+				padding: 1em 1em;
 				display: block;
 				margin-right: 1px;
 				font-family: arial;
@@ -36,14 +36,14 @@
 				background: linear-gradient(@dark-gray, @medium-gray);
 				
 				&:hover {
-					background: @orange;
+					background: @dark-gray;
 				}
 			}
 			
 			ul {
 				display: none;
 				position: absolute;
-				width: 150px;
+				width: 195px;
 				
 				a {
 					margin-right: 0;
@@ -84,14 +84,11 @@
 		right: 15%;
 		
 		&:after {
-			content: "";
-			border-top: 5px solid #bfbfbf;
-			border-right: 5px solid transparent;
-			border-bottom: 5px solid transparent;
-			border-left: 5px solid transparent;
+			content: "";			
 			position: absolute;
-			top: 11px;
+			top: 20px;
 			left: 0px;
+			.arrow-down(7px);
 		}
 	}
 	

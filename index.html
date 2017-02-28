@@ -4,19 +4,44 @@
 <meta charset="utf-8">
 <title>HR Navigation Responsive Menu -  Md Hidaytullah Rahmani</title>
 <meta name="viewport" content="width=device-width">
+<meta name="keyword" content="Responisve menu, multilevel menu, mobile navigation menu, free responsive menu, HR Navigation Responsive Menu, Hidayt Rahman, Md hidaytullah Rahmani">
+<meta name="description" content="HR Navigation Responsive Menu - HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile App with very less code and easy to implement with all possible options">
+<meta name="author" content="Md Hidaytullah Rahmani, Hidayt Rahman">
 <link rel="stylesheet" type="text/css" href="css/hr.nav.res.menu.min.css">
+<link rel="stylesheet" type="text/css" href="css/style1.css">
 <script src="js/1.11.2.jquery.min.js"></script>
 <script src="js/hr.nav.res.menu.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 	$(".hr-nav-wrapper").hrNavMenu({
-		speed: 500,
-		menuType: "fromTop"
+		speed:800, //integer in milliseconds  1000,2000
+        menuType :"fromLeft", //fromLeft, fromTop
+        desktopListWidth : "fluid", // fluid, default
+        openEvent : "click", //click, mouseover
+        multiple  : false // true, false
 	});
 });
 </script>
 </head>
 <body>
+<div class="plugin-content">
+<h1>HR Navigation Responsive Menu</h1>
+<h4>HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile App with very less code and easy to implement with all possible options</h4>
+<h4 class="mhead">Features</h4>
+<ul class="hr-features">
+	<li>Responsive all devices support</li>
+	<li>Handle events with 2 option (Click and Mouseover)</li>
+	<li>All major browsers compatible</li>
+	<li>Toggle from left side and top side</li>
+	<li>Multilple open menu option (Open one at a time or multiple)</li>
+	<li>Equal width of menu list on Desktop</li>
+	<li>Custom speed option</li>
+	<li>LESS compatible</li>
+	<li>Lightweight js only (2 kb)</li>
+</ul>
+
+<h2>Live Demo</h2>
+<!-- Navigation section start-->
 <nav class="hr-nav-wrapper">
 	<div class="navigation hr-navigation">
 		<ul>
@@ -50,27 +75,13 @@ $(document).ready(function(){
 	<!-- Navigation end -->
 </nav>
 
-<div class="plugin-content">
-<h1>HR Navigation Responsive Menu</h1>
-<h4>HR Navigation Responsive Menu for all type of Web Applications, NATIVE Mobile App with very less code and easy to implement with all possible options</h4>
-<h4 class="mhead">Features</h4>
-<ul class="hr-features">
-	<li>Responsive</li>
-	<li>Multilple open menu option (Open one at a time or multiple)</li>
-	<li>All Major Browser Compatible</li>
-	<li>Open with Left side and Top Side</li>
-	<li>Equal width of list Item on Desktop</li>
-	<li>Custom Speed Option</li>
-	<li>Lightweight js only (3kb)</li>
-</ul>
-
 <h2>Documentation</h2>
 <div class="introPlugin">
 	<span>Include these files mandatory</span>
 	<ol class="html-tag">
-		<li>&lt;link rel="stylesheet" href="hr.nav.res.menu.css"&gt;</li>
+		<li>&lt;link rel="stylesheet" href="hr.nav.res.menu.min.css"&gt;</li>
 		<li>&lt;script src="1.11.2.jquery.min.js"&gt; &lt;/script&gt;</li>
-		<li>&lt;script src="hr.nav.res.menu.js"&gt; &lt;/script&gt;</li>
+		<li>&lt;script src="hr.nav.res.menu.min.js"&gt; &lt;/script&gt;</li>
 	</ol>
 </div>
 
@@ -94,14 +105,15 @@ $(document).ready(function(){
 	});
  </pre>
 
-
+<h2> Mobile Device Demo</h2>
+<br />
  <div class="examples"> 	
 	<div class="exm">
-		<h3>Example 1</h3>
+		<h3>Demo 1</h3>
 		<iframe src="example1.html" width="480" height="500"></iframe>
 	</div>
 	<div class="exm">
-		<h3>Example 2</h3>
+		<h3>Demo 2</h3>
 		<iframe src="example2.html" width="480" height="500"></iframe>
 	</div>
  </div>
@@ -110,11 +122,8 @@ $(document).ready(function(){
 
 <footer>
 <div class="pluginAuthor">
-	<div class="author-pic">
-		<img src="http://webtechpie.com/images/hidayt-rahman-UI-Designer.jpg" />
-	</div>
 	<div class="author-url">
-		<a href="http://www.github.com/hidaytrahman" class="social plugins" target="_blank" rel="nofollow">More Plugins By Hidayt Rahman</a>
+		<a href="http://www.github.com/hidaytrahman" class="social plugins" target="_blank" rel="nofollow">More Plugins</a>
 		<a href="http://www.webtechpie.com" class="social plugins"  target="_blank">Provide Work?</a>
 		<a href="mailto:hidayt@webtechpie.com" class="social plugins" >Any Query ?</a>
 	</div>

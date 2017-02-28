@@ -52,7 +52,7 @@ HR Navigation Responsive Menu for all type of Web Applications with very less co
 ###### Author
 ###### if you've any more idea or suggestions please share me on :point_right: [hidaytrahman@gmail.com](mailto:hidaytrahman@gmail.com)
 
-#### If you like my work [buy me a cup of coffe](https://www.paypal.me/hidaytrahman/3) to show support :blush:
+#### If you like my work [buy me a cup of coffee](https://www.paypal.me/hidaytrahman/3) to show support :blush:
 
 ----------------------------------------------------
 ### Logs (v1.3)

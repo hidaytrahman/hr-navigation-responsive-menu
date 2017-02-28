@@ -80,15 +80,6 @@ footer {
   -ms-transition: all 0.7s ease;
   -o-transition: all 0.7s ease;
 }
-.pluginAuthor .author-pic {
-  float: left;
-  width: 16%;
-}
-.pluginAuthor .author-pic img {
-  width: 100%;
-  max-width: 200px;
-  max-height: 164px;
-}
 .pluginAuthor .author-url {
   width: 44%;
   float: left;
