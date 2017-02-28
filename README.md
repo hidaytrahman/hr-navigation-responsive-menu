@@ -47,7 +47,7 @@ HR Navigation Responsive Menu for all type of Web Applications with very less co
 	});
 ```
 
-[Checkout Demo ](https://run.plnkr.co/plunks/QLcT9d/)
+[Checkout Demo ](https://hidaytrahman.github.io/hr-navigation-responsive-menu/)
 
 ###### Author
 ###### if you've any more idea or suggestions please share me on :point_right: [hidaytrahman@gmail.com](mailto:hidaytrahman@gmail.com)
