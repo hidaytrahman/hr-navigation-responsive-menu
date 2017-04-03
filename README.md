@@ -2,7 +2,7 @@
 
 HR Navigation Responsive Menu for all type of Web Applications with very less code and easy to implement with all possible options.
 
-####Features
+#### Features
 * Responsive all devices support
 * Handle events with two options (click and mouseover)
 * All major browsers compatible
@@ -13,9 +13,9 @@ HR Navigation Responsive Menu for all type of Web Applications with very less co
 * LESS compatible
 * Lightweight js only (2 kb)
 
-##Documentation
+## Documentation
 
-###HTML
+### HTML
 
 ###### Required Files <head>
 ```html
@@ -35,7 +35,7 @@ HR Navigation Responsive Menu for all type of Web Applications with very less co
 	 </nav>
 ```
 	
-###jQuery
+### jQuery
 ```javascript
 	$(".hr-nav-wrapper").hrNavMenu({ 
 		speed:800, //integer in milliseconds  1000,2000
@@ -51,6 +51,7 @@ HR Navigation Responsive Menu for all type of Web Applications with very less co
 
 ###### Author
 <img src="https://i.stack.imgur.com/Ypp7a.jpg" width="100">
+
 ###### if you've any more idea or suggestions please share me on :point_right: [hidaytrahman@gmail.com](mailto:hidaytrahman@gmail.com)
 
 #### If you like my work [buy me a cup of coffee](https://www.paypal.me/hidaytrahman/3) to show support :blush:
